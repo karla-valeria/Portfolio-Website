@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --background-clr: #FBFBFB;
+    --light-blue: #DDEEFD;
+    --accent-teal: #03E5D8;
+    --dark-blue: #104279;
+    --sansserif-font: "Plus Jakarta Sans", sans-serif;
+    --serif-font: "Playfair Display", serif;
+}
+
+/* homepage nav */
+nav {
+    position: relative;
+    right: 137px;
+    top: 34px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    position: relative;
+    background-color: var(--light-blue);
+    height: 92px;
+    width: 92px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 150ms;
+}
+
+nav li:hover {
+    transition: all 1s 150ms;
+    width: 100px;
+    height: 100px;
+}
+nav a {
+    text-decoration: none;
+    font-family: inherit;
+    color: var(--dark-blue);
+}
+
+#work-li, #contact-li {
+    top: 137px;
+}
+
+#work-li {
+    left: 5px;
+}
+
+.empty-nav {
+    height: 75px;
+    width: 75px;
+}
+
+#top-left {
+    bottom: 65px;
+}
+
+#top-right {
+    bottom: 65px;
+    left: 50px;
+}
+
+#bottom {
+    top: 90px;
+    left: 27px;
+}
+
+/* hero */
+#hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+#pic-placeholder {
+    width: 278px;
+    height: 278px;
+    background-color: var(--light-blue);
+    border-radius: 200px;
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+
+#hero h1 {
+    margin: 0px;
+}
+
+#hero div {
+    margin-left: 50px;
+}
+
+#title-one {
+    position: relative;
+    right: 270px;
+}
+
+#title-two {
+    position: relative;
+    right: 20px;
+}
+
+#hero em {
+    color: var(--accent-teal);
+}
+
+#hero a {
+    font-size: 24px;
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* intro banner */
+#intro {
+    background-color: var(--light-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 150px 0px;
+    border-radius: 250px 0px 0px 250px;
+}
+
+#intro h1 {
+    font-family: var(--serif-font);
+}
+
+#intro h1, #intro p {
+    margin: 0px;
+}
+
+/* portfolio slides */
+
+#portfolio {
+    display: flex;
+}
+
+.portfolio-div {
+    width: 50%;
+}
+
+#circle1 {
+    background-color: var(--accent-teal);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle2 {
+    background-color: var(--dark-blue);
+    z-index: -1;
+    position: relative;
+    bottom: 365px;
+}
+
+#circle3 {
+    background-color: var(--light-blue);
+    z-index: -2;
+    position: relative;
+    bottom: 735px;
+}
+
+.portfolio-circle {
+    width: 440px;
+    height: 440px;
+    border-radius: 300px;
+}
+
+#circle1 h3 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+#portfolio-title div {
+    max-height: 586px;
+}
+
+#portfolio-title {
+    margin: 150px 0px;
+    display: flex;
+    justify-content: center;
+}

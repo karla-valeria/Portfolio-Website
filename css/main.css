@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --background-clr: #FBFBFB;
+    --light-blue: #DDEEFD;
+    --accent-teal: #03E5D8;
+    --dark-blue: #104279;
+    --sansserif-font: "Plus Jakarta Sans", sans-serif;
+    --serif-font: "Playfair Display", serif;
+}
+
+body {
+    background-color: var(--background-clr);
+    font-family: var(--sansserif-font);
+    margin: 0;
+    color: #003049;
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+em {
+    font-family: var(--serif-font);
+    color: #03E5D8;
+    font-style: italic;
+    font-weight: 500;
+}
+/* header styles */
+header {
+    padding: 0px 96px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 215px;
+}
+
+/* contact banner */
+#contact-banner {
+    background-color: var(--dark-blue);
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    color: var(--light-blue);
+}
+
+#contact-banner div a {
+    color: var(--light-blue);
+}
+
+#resume-btn {
+    padding: 29px 53px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    border-radius: 17px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#contact-banner h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0;
+}
+
+#contact-banner p {
+    margin-bottom: 0;
+}
+
+/* footer */
+footer {
+    height: 375px;
+    padding: 0px 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 16px;
+    color: var(--dark-blue);
+    font-style: italic;
+    text-align: center;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer-col h4 {
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: #656565;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+#footer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
