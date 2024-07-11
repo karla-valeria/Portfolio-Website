@@ -33,7 +33,7 @@ nav li {
     transition: all 1s 150ms;
 }
 
-nav li:hover {
+.nav-links:hover {
     transition: all 1s 150ms;
     width: 100px;
     height: 100px;
