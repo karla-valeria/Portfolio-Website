@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --background-clr: #FBFBFB;
+    --light-blue: #DDEEFD;
+    --accent-teal: #03E5D8;
+    --dark-blue: #104279;
+    --sansserif-font: "Plus Jakarta Sans", sans-serif;
+    --serif-font: "Playfair Display", serif;
+}
+
+/* nav */
+nav {
+    align-self: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;;
+}
+
+nav a {
+    width: 91px;
+    height: 91px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--dark-blue);
+    margin: -8px;
+}
+
+nav li:nth-child(4) a {
+    background-color: #4e78a0c9;
+    color:white;
+    z-index: 4;
+}
+
+nav li:nth-child(3) a {
+    background-color: #89b4dcc7;
+    z-index: 3;
+}
+
+nav li:nth-child(2) a {
+    background-color: #b2cfe9cb;
+    z-index: 2;
+}
+
+nav li:nth-child(1) a {
+    background-color: #ddeefdc9;
+    z-index: 1;
+}
