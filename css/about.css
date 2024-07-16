@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --background-clr: #FBFBFB;
+    --light-blue: #DDEEFD;
+    --accent-teal: #03E5D8;
+    --dark-blue: #104279;
+    --sansserif-font: "Plus Jakarta Sans", sans-serif;
+    --serif-font: "Playfair Display", serif;
+}
+
+/* nav */
+nav {
+    align-self: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;;
+}
+
+nav a {
+    width: 91px;
+    height: 91px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--dark-blue);
+    margin: -8px;
+}
+
+nav li:nth-child(4) a {
+    background-color: #4e78a0c9;
+    color:white;
+}
+
+nav li:nth-child(3) a {
+    background-color: #89b4dcc7;
+}
+
+nav li:nth-child(2) a {
+    background-color: #b2cfe9cb;
+}
+
+nav li:nth-child(1) a {
+    background-color: #ddeefdc9;
+}
+
+/* main styles */
+#about-title {
+    background-image: url(../images/about-bannerv2.png);
+    background-size: 120vw;
+    margin-top: 30px;
+}
+
+#about-title h1 {
+    font-family: var(--serif-font);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 66px 0px 66px 173px;
+    margin: 0px;
+    width: 957px;
+}
+
+#about-content {
+    background-color: var(--light-blue);
+    color: #104279;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 109px 0px;
+}
+
+#about-content a {
+    color: inherit;
+}
+
+#about-content p {
+    font-size: 16px;
+    width: 767px;
+}
+
+#about-text-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-text-image img {
+    height: 325px;
+    width: 251px;
+    padding: 0px 82px;
+}
+
+#about-text-image p {
+    width: 344px;
+}
