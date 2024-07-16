@@ -76,6 +76,14 @@ header {
     border-radius: 17px;
     font-size: 32px;
     font-weight: 600;
+    transition: all 500ms 50ms;
+}
+
+#resume-btn:hover {
+    transition: all 500ms 50ms;
+    border: 4px solid var(--light-blue);
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
 }
 
 #contact-banner h2 {
