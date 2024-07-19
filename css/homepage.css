@@ -83,7 +83,7 @@ nav a {
     margin-bottom: 130px;
 }
 
-#pic-placeholder {
+#hero-pic {
     width: 278px;
     height: 278px;
     border-radius: 200px;
@@ -91,8 +91,8 @@ nav a {
     margin-bottom: 50px;
 }
 
-#pic-placeholder img {
-    width: 277px;
+#hero-pic img {
+    width: 278px;
 }
 
 #hero h1 {
@@ -146,6 +146,7 @@ nav a {
 
 #portfolio {
     display: flex;
+    height: 886px;
 }
 
 .portfolio-div {
@@ -193,4 +194,15 @@ nav a {
     margin: 150px 0px;
     display: flex;
     justify-content: center;
+}
+
+#portfolio-slides {
+    max-height: inherit;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+}
+#portfolio-slides img {
+    width: 100%; 
 }
