@@ -86,10 +86,13 @@ nav a {
 #pic-placeholder {
     width: 278px;
     height: 278px;
-    background-color: var(--light-blue);
     border-radius: 200px;
     align-self: flex-end;
     margin-bottom: 50px;
+}
+
+#pic-placeholder img {
+    width: 278px;
 }
 
 #hero h1 {
