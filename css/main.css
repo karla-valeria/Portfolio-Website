@@ -52,6 +52,10 @@ header {
     max-height: 215px;
 }
 
+#logo-mobile, #mobile-menu-icon {
+    display: none;
+}
+
 /* contact banner */
 #contact-banner {
     background-color: var(--dark-blue);
@@ -144,3 +148,15 @@ footer p {
     align-items: center;
     gap: 40px;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    #logo-mobile, #mobile-menu-icon {
+    display: block;
+    }
+
+    #logo, nav {
+        display: none;
+    }
+}
+
