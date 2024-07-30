@@ -150,7 +150,7 @@ footer p {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     #logo-mobile, #mobile-menu-icon {
     display: block;
     }

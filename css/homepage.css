@@ -206,3 +206,14 @@ nav a {
 #portfolio-slides img {
     width: 100%; 
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #logo-mobile, #mobile-menu-icon {
+    display: block;
+    }
+
+    #logo, nav {
+        display: none;
+    }
+}
