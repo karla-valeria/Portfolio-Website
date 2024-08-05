@@ -98,6 +98,7 @@ header {
 
 #contact-banner p {
     margin-bottom: 0;
+    font-style: italic;
 }
 
 /* footer */
@@ -151,6 +152,25 @@ footer p {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+    p {
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 64px;
+    }
+    
+    h2 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+
     /* header styles */
     #logo-mobile, #mobile-menu-icon {
     display: block;
@@ -183,7 +203,6 @@ footer p {
         width: 77vw;
         background-color: rgba(16, 66, 121, .7);
         z-index: 2;
-        display: flex;
         justify-content: center;
         align-items: center;
         top: 0px;
@@ -213,5 +232,58 @@ footer p {
         font-size: 32px;
         text-transform: uppercase;
         display: block;
+    }
+
+    nav a:active {
+        height: auto;
+    }
+    
+    /*contact banner styles*/
+    .mobile-stripes {
+        height: 36px;
+    }
+    
+    #stripe-one {
+        background-color: var(--accent-teal);
+    }
+    
+    #stripe-two {
+        background-color: #89B4DC;
+    }
+
+    #contact-banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 546px;
+        padding: 0px 0 0 12%;
+        text-align: start;
+        gap: 30px;
+    }
+
+    #resume-btn {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 24px 52px;
+    }
+
+    #contact-banner h2 {
+        width: 273px;
+    }
+
+    #contact-banner p {
+        width: 186px;
+    }
+
+    /*footer styles*/
+    footer {
+        padding: 0px;
+        height: 230px;
+        gap: 30px;
+        justify-content: flex-end;
+    }
+
+    .footer-col {
+        display: none;
     }
 }
