@@ -242,13 +242,10 @@ nav a {
     }
 
     nav li {
-        height: auto;
-        width: auto;
         background-color: transparent;
-    }
-
-    nav ul li {
         position: static;
+        height: 40px;
+        width: auto;
     }
 
     nav a {
@@ -257,10 +254,7 @@ nav a {
         font-size: 32px;
         text-transform: uppercase;
         display: block;
-    }
-
-    nav a:active {
-        height: auto;
+        height: 40px;
         width: auto;
     }
 
@@ -274,6 +268,8 @@ nav a {
 
     #title-one, #title-two {
         position: static;
+        width: 269px;
+        justify-self: start;
     }
 
     #hero h1 {
@@ -282,6 +278,7 @@ nav a {
 
     #title-and-text {
         margin: 0px;
+        width: 100%;
     }
 
     #hero-text {
