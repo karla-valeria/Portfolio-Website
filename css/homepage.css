@@ -99,7 +99,7 @@ nav a {
     margin: 0px;
 }
 
-#hero div {
+#title-and-text {
     margin-left: 50px;
 }
 
@@ -115,6 +115,15 @@ nav a {
 
 #hero em {
     color: var(--accent-teal);
+}
+
+#hero-text {
+    width: 503px;
+    height: 133px;
+}
+
+#hero-text p {
+    margin-bottom: 12px;
 }
 
 #hero a {
@@ -140,6 +149,10 @@ nav a {
 
 #intro h1, #intro p {
     margin: 0px;
+}
+
+#intro p {
+    width: 533px;
 }
 
 /* portfolio slides */
@@ -252,8 +265,76 @@ nav a {
     }
 
     /* hero styles */
+    #hero {
+        margin-bottom: 0;
+    }
     #hero-pic {
         display: none;
+    }
+
+    #title-one, #title-two {
+        position: static;
+    }
+
+    #hero h1 {
+        margin: 0 0 0 50px;
+    }
+
+    #title-and-text {
+        margin: 0px;
+    }
+
+    #hero-text {
+        background-color: var(--light-blue);
+        border-radius: 600px;
+        width: 294px;
+        height: 294px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 54px auto 0 auto;
+    }
+
+    #hero-text p {
+        width: 197px;
+    }
+
+    #title-and-text a {
+        position: relative;
+        bottom: 60px;
+        left: 250px;
+        line-height: 143%;
+        height: 98px;
+        width: 98px;
+        border-radius: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(137, 180, 220,.7);
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    /* intro styles */
+    #intro {
+        border-radius: 0;
+        gap: 33px;
+    }
+
+    #intro p {
+        font-size: 24px;
+        width: 59%;
+        line-height: 207%;
+    }
+
+    #intro h1 {
+        transform: rotate(-90deg);
+        width: 85px;
+        margin: 0 0 75px 0;
+        align-self: end;
     }
 
     /*portfolio styles*/
