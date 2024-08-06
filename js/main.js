@@ -5,7 +5,7 @@ function myFunction() {
         x.style.display = "none";
     } else {
         x.style.display = "flex";
-        var y = document.getElementsByTagName("body");
+        var y = document.getElementById("body");
         y.style.overflow = "hidden";
     }
 }
