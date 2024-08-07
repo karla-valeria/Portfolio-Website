@@ -103,3 +103,66 @@ main p {
 .contact-card {
     margin: 0px 16px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav li {
+        background-color: transparent;
+        position: static;
+        height: 40px;
+        width: auto;
+    }
+
+    nav a {
+        color: white;
+        font-weight: 300;
+        font-size: 32px;
+        text-transform: uppercase;
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+
+    nav li:nth-child(1) a, nav li:nth-child(2) a, nav li:nth-child(3) a, nav li:nth-child(4) a {
+        background-color: transparent;
+    }
+
+    /* main styles */
+    h1 {
+        font-size: 48px;
+        line-height: 115.4%;
+    }
+
+    #contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 69px 0;
+        background-image: url(../images/contact-banner-mobile.png);
+        background-size: cover;
+        gap: 62px;
+    }
+
+    .contact-card {
+        margin: 0;
+        text-align: center;
+    }
+
+    .contact-card h3 {
+        font-size: 48px;
+    }
+
+    .contact-card p {
+        font-size: 24px;
+    }
+
+    #contact-socials {
+        margin: 0;
+    }
+
+    #contact-text {
+        width: 230px;
+        margin: 0 auto;
+    }
+}

@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
+    <script src="js/main.js"></script>
     <title>Valerie Rodriguez - About Me</title>
 </head>
-<body>
+<body id="body">
     <header>
-        <a href="index.html"><img style="width: 356px; height: 163px;" src="images/logo.png" alt="Valerie Rodriguez"></a>
-        <nav>
+        <a href="index.html" id="logo"><img style="width: 356px; height: 163px;" src="images/logo.png" alt="Valerie Rodriguez"></a>
+        <a href="index.html" id="logo-mobile">Valerie Rodriguez</a>
+        <a href="javascript:void(0);" onclick="myFunction()" id="mobile-menu-icon"><img style="width: 115px; height: 89px;" src="images/mobile-logo.svg"></a>
+        <nav id="myLinks">
             <ul>
                 <li id="home-li"><a href="index.html">home</a></li>
                 <li id="work-li"><a href="work.html">work</a></li>
