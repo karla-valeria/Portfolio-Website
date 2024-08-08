@@ -75,6 +75,7 @@ main {
     flex-direction: column;
     gap: 34px;
 }
+
 .work-examples {
     background-color: var(--light-blue);
     height: 430px;
@@ -102,5 +103,16 @@ main {
 
     nav li:nth-child(1) a, nav li:nth-child(2) a, nav li:nth-child(3) a, nav li:nth-child(4) a {
         background-color: transparent;
+    }
+
+    /* main styles */
+    #work-title h1 {
+        width: 307px;
+        text-align: center;
+    }
+
+    .work-examples {
+        height: 482px;
+        width: 307px;
     }
 }
