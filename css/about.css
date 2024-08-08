@@ -123,4 +123,31 @@ nav li:nth-child(1) a {
     nav li:nth-child(1) a, nav li:nth-child(2) a, nav li:nth-child(3) a, nav li:nth-child(4) a {
         background-color: transparent;
     }
+
+    /* main styles */
+    #about-title {
+        background-image: url(../images/about-bannerv2-mobile.png);
+        background-size: cover;
+        margin: 0;
+    }
+
+    #about-title h1{
+        width: auto;
+        padding: 104px 13%;
+    }
+
+    #about-text-image img, #about-text-image p:last-child {
+        display: none;
+    }
+
+    #about-content {
+        padding: 124px 68px;
+        gap: 60px;
+    }
+
+    #about-content p {
+        font-size: 24px;
+        width: auto;
+        margin: 0;
+    }
 }
